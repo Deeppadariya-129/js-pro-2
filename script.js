@@ -52,4 +52,3 @@ function trimlength(str,num){
 document.getElementById("btns").addEventListener('click',()=> {
     generatePassword()
 })
-
