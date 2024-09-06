@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <h1>Password Gnerator</h1>
+        <div class="main-area">
+            <input type="text" id="pass-area" value="Gnerated Password" disabled >
+
+            <div class="first">
+                <label for="num">Password Length:</label>
+                <input type="number" id="num" >
+            </div>
+            
+            <div class="second">
+                <label for="upp-case">Contains Uppercase:</label>
+                <input type="checkbox" id="upp-case">
+            </div>
+            
+            <div class="thired">
+                <label for="low-case">Contains Lowercase:</label>
+                <input type="checkbox" id="low-case">
+            </div>
+            
+            <div class="fourth">
+                <label for="number">Contains Number:</label>
+                <input type="checkbox" id="number">
+            </div>
+            
+            <div class="fifth">
+                <label for="symbol">Contains Symbols:</label>
+                <input type="checkbox" id="symbol">
+            </div>
+            <button id="btns">Gnerat</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
